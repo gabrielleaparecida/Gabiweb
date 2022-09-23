@@ -1,25 +1,14 @@
 import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
-
 export const Cabecalho = styled.header`
   display: flex;
-  justify-content: space-between;
-  background-color: ${colors.primary};
-  picture {
-    svg {
-      height: 6rem;
-      width: 6rem;
-      margin-right: 1rem;
-    }
-    a {
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-      color: ${colors.black};
-      font-size: 1.3rem;
-    }
+  border-bottom: 0.5rem solid ${colors.secondary};
+  picture svg {
+    height: 6rem;
+    width: 6rem;
   }
   nav {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -32,7 +21,18 @@ export const Cabecalho = styled.header`
         a {
           text-decoration: none;
           font-size: 1.2em;
-          color: ${colors.black};
+          color: ${colors.primary};
+        }
+        button {
+          display: flex;
+          gap: 0.5rem;
+          align-items: center;
+          text-decoration: none;
+          font-size: 1.2em;
+          color: ${colors.primary};
+          border: 0;
+          background-color: transparent;
+          cursor: pointer;
         }
       }
     }
