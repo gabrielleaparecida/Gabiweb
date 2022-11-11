@@ -1,3 +1,4 @@
+import React from "react"
 import { FcReuse } from "react-icons/fc";
 import { GrLogout } from "react-icons/gr";
 import * as S from "./styles";
