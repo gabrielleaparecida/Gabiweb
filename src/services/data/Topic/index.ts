@@ -1,4 +1,4 @@
-import { ITopicData } from "interfaces/topic.interface";
+import { ITopicData } from "interfaces/topic.interfaces";
 import api from "services/api";
 
 class TopicData {

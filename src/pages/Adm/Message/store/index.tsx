@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import { AxiosError } from "axios";
 import { IMessageForm } from "interfaces/message.interface";
 import { IErrorResponse } from "interfaces/user.interface";
-import { ITopicData } from "interfaces/topic.interface";
+import { ITopicData } from "interfaces/topic.interfaces";
 
 const MessageStore = () => {
   const [isLoading, setIsLoading] = useState(true);
